@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/InAddId"
+        android:textSize="16sp"
+        android:text="@string/IdLbl"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:textAlignment = "center"
+        android:gravity="center_vertical"
+        android:layout_width="60sp"
+        android:layout_height="40sp" />
+
+    <EditText
+        android:id="@+id/enterId"
+        android:layout_alignParentTop="true"
+        android:hint="@string/EnterId"
+        android:layout_toEndOf="@id/InAddId"
+        android:layout_toRightOf="@+id/InAddId"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="40sp" />
+
+    <TextView
+        android:id="@+id/InAddName"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/InAddId"
+        android:text="@string/NameLbl"
+        android:textAlignment="center"
+        android:layout_width="60sp"
+        android:layout_height="40sp" />
+
+    <EditText
+        android:id="@+id/enterName"
+        android:textAlignment="center"
+        android:layout_below="@+id/enterId"
+        android:layout_toEndOf="@+id/InAddName"
+        android:layout_toRightOf="@id/InAddName"
+        android:textSize="16sp"
+        android:hint="@string/EnterName"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"/>
+
+    <TextView
+        android:id="@+id/InAddage"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/AgeLbl"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/InAddName"
+        android:textAlignment="center"
+        android:layout_width="60sp"
+        android:layout_height="40sp" />
+
+    <EditText
+        android:id="@+id/enterAge"
+        android:hint="@string/EnterAge"
+        android:layout_below="@+id/enterName"
+        android:layout_toEndOf="@+id/InAddage"
+        android:layout_toRightOf="@id/InAddage"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="40sp" />
+
+    <Button
+        android:id="@+id/addNewFrn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/InAddage"
+        android:text="@string/AddFrn"
+        />
+
+
+</RelativeLayout>

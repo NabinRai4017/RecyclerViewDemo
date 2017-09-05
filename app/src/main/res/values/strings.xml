@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RecyclerViewDemo</string>
+    <string name="FrnAge">Age</string>
+    <string name="FrnName">Name</string>
+    <string name="FrnId">Id</string>
+    <string name="AddFrn">Add friend</string>
+
+
+
+    <string name="EnterName">Enter name</string>
+    <string name="EnterId">Enter id</string>
+    <string name="EnterAge">Enter age</string>
+
+
+
+    <string name="NameLbl">Name : </string>
+    <string name="IdLbl">Id : </string>
+    <string name="AgeLbl">Age : </string>
+
+</resources>
